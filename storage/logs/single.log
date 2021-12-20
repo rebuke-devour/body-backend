@@ -1,0 +1,100 @@
+2021-12-19 20:43:25 - ERROR - InvalidSecretKey in 0 on line 0
+2021-12-19 20:43:25 - ERROR - "GET / HTTP/1.1" 500 1560
+2021-12-19 20:44:17 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 20:44:17 - INFO - "GET /static/style.css HTTP/1.1" 200 648
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-19 20:47:58 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-19 20:57:57 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-19 21:58:16 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 21:58:16 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-19 21:58:16 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-19 21:58:16 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 21:58:16 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 21:58:16 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:21:37 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 22:21:37 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-19 22:21:37 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-19 22:21:37 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 22:22:07 - WARNING - "POST /Body HTTP/1.1" 404 1536
+2021-12-19 22:22:07 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT /Body HTTP/1.1" 404 1536
+2021-12-19 22:22:07 - WARNING - "PUT /body HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "PUT / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - WARNING - "POST / HTTP/1.1" 405 1554
+2021-12-19 22:22:07 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-19 22:22:07 - WARNING - "GET /Body HTTP/1.1" 404 1536
+2021-12-19 23:36:11 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:36:11 - ERROR - "GET /body HTTP/1.1" 500 1041894
+2021-12-19 23:36:42 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:36:42 - ERROR - "GET /body HTTP/1.1" 500 1041894
+2021-12-19 23:36:53 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:36:53 - ERROR - "GET /body/1 HTTP/1.1" 500 1042786
+2021-12-19 23:37:11 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:37:11 - ERROR - "GET /body/2 HTTP/1.1" 500 1042786
+2021-12-19 23:39:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:39:32 - ERROR - "GET /body HTTP/1.1" 500 1041939
+2021-12-19 23:40:41 - WARNING - "GET /Body HTTP/1.1" 404 1536
+2021-12-19 23:40:46 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:40:46 - ERROR - "GET /body HTTP/1.1" 500 1041939
+2021-12-19 23:41:07 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:41:07 - ERROR - "POST /body HTTP/1.1" 500 1042437
+2021-12-19 23:41:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:41:32 - ERROR - "POST /Body HTTP/1.1" 500 1041689
+2021-12-19 23:42:46 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:42:46 - ERROR - "GET /Body HTTP/1.1" 500 1042184
+2021-12-19 23:43:19 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:43:19 - ERROR - "GET /body HTTP/1.1" 500 1042216
+2021-12-19 23:43:41 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:43:41 - ERROR - "GET /body HTTP/1.1" 500 1042935
+2021-12-19 23:44:00 - ERROR - SyntaxError in 0 on line 0
+2021-12-19 23:44:00 - ERROR - "GET /body HTTP/1.1" 500 1042935
+2021-12-19 23:47:02 - WARNING - "GET /Body HTTP/1.1" 404 1536
+2021-12-19 23:47:02 - WARNING - "GET /Body HTTP/1.1" 404 1536
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-19 23:47:02 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-19 23:47:02 - INFO - "GET /body HTTP/1.1" 200 1504
+2021-12-19 23:47:02 - INFO - "GET /body/1 HTTP/1.1" 200 575
+2021-12-19 23:47:02 - INFO - "GET /body/2 HTTP/1.1" 200 417
+2021-12-19 23:47:02 - INFO - "GET /body/2 HTTP/1.1" 200 417
+2021-12-19 23:47:02 - INFO - "GET /body HTTP/1.1" 200 1504
+2021-12-19 23:47:02 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-19 23:50:07 - ERROR - UnboundLocalError in /Users/palomacorreal/development/seir_penguin/projects/capstone2/backend/app/http/controllers/BodyController.py on line 35
+2021-12-19 23:50:07 - ERROR - "POST /body HTTP/1.1" 500 976837
+2021-12-19 23:50:47 - ERROR - UnboundLocalError in /Users/palomacorreal/development/seir_penguin/projects/capstone2/backend/app/http/controllers/BodyController.py on line 35
+2021-12-19 23:50:47 - ERROR - "POST /body HTTP/1.1" 500 976837
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-19 23:51:32 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-19 23:51:32 - INFO - "POST /body HTTP/1.1" 200 531
+2021-12-19 23:51:32 - INFO - "GET /body HTTP/1.1" 200 2037
+2021-12-19 23:51:32 - INFO - "GET /body/4 HTTP/1.1" 200 531
+2021-12-19 23:51:32 - WARNING - "POST /body/4 HTTP/1.1" 404 1536
+2021-12-19 23:52:22 - ERROR - ContainerError in 0 on line 0
