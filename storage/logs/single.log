@@ -98,3 +98,13 @@
 2021-12-19 23:51:32 - INFO - "GET /body/4 HTTP/1.1" 200 531
 2021-12-19 23:51:32 - WARNING - "POST /body/4 HTTP/1.1" 404 1536
 2021-12-19 23:52:22 - ERROR - ContainerError in 0 on line 0
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-20 20:44:04 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-20 20:44:04 - INFO - "GET /body HTTP/1.1" 200 1504
+2021-12-20 20:44:04 - INFO - "POST /body HTTP/1.1" 200 531
+2021-12-20 20:44:04 - WARNING - "PUT /body HTTP/1.1" 405 1554

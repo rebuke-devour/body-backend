@@ -32,6 +32,7 @@ class BodyController(Controller):
         name = self.request.input("name")
         date_discovered = self.request.input("date_discovered")
         details = self.request.input("details")
+
         body= Body.create({ "name": name, "date_discovered": date_discovered, "details": details })
         return body
 
