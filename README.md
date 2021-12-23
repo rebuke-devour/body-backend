@@ -1,268 +1,126 @@
+## Celestial Bodies
+
+# Project Summary
+- A "to-do list" style list of celestial bodies and  an interesting fact for each
+
+
+# User Story
+- I can create a new Celestial Body and see that it loads on the page. 
+- I can see a list of all my Celestial Bodies when I login.
+- click on one of my Celestial Bodies and have it take me to the linked website.
+- delete a Celestial Body. 
+- Able to update a Celestial Body. 
+
+## User Persona(s)
+ This approach follows the "Four Perspectives" method by Lene Nielsen outlined in interaction-design.org.
+
+ This is designed toward the the "Goal-Oriented" Persona, and is defined as follows: "...by its personal, practical, and company-oriented goals as well as by the relationship with the product to be designed, the emotions of the persona when using the product, and the goals of the persona in using the product (hence Goal-Directed)." 
+
+Thus, the desired outcome for this application is to provide the user a way to list their vacation plans, and will provide simple intiutive UI with the functions and features outlined below...
+
+### Scope of Functionalities
+- Basic CRUD Functionality; User should be able to Create, Read, Update and Delete their stored information.
+
+
+## Acceptance Criteria
+To meet Minimum Viable Product, this application will provide: 
+- Detailed README
+- Postgres DB
+- Backend API created with language/ framwork of choice
+- Backend & Live on Heroku
+- Frontend built with language/framwork of choice
+- Minimum of one model with full CRUD functionality to its data model
+- Minimum of 5 components in Frontend App
+- Follow RESTful conventions 
+- Responsive Styling
+- At least one (Carosel, Modal, Sandwich, Sandwich Menu)
+
+
+## List of technologies
+Backend: Python, Masonite
+Frontend: ReactJS, Node.JS, Tailwind CSS
+
+Dependencies and Version outlined below:
+
+attrs==21.2.0
+backpack==0.1
+bcrypt==3.1.7
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.8
+cleo==0.8.1
+clikit==0.6.2
+crashtest==0.3.1
+cryptography==36.0.0
+exceptionite==1.0.1
+Faker==4.18.0
+gunicorn==20.1.0
+hfilesize==0.1.0
+hupper==1.9.1
+idna==3.3
+inflection==0.3.1
+iniconfig==1.1.1
+Jinja2==2.11.3
+MarkupSafe==2.0.1
+masonite==3.0.12
+masonite-dot==0.0.5
+masonite-logging==1.0.1
+masonite-orm==1.0.60
+masonite-validation==3.0.14
+packaging==21.3
+passlib==1.7.4
+pastel==0.2.1
+pendulum==2.1.2
+pluggy==1.0.0
+psutil==5.6.7
+psycopg==3.0.5
+psycopg2==2.9.2
+py==1.11.0
+pycparser==2.21
+pylev==1.4.0
+pyparsing==3.0.6
+pytest==6.2.5
+python-dateutil==2.8.2
+python-dotenv==0.10.5
+pytzdata==2020.1
+requests==2.26.0
+requests-file==1.5.1
+simplejson==3.17.6
+six==1.16.0
+tabulate==0.8.9
+termcolor==1.1.0
+text-unidecode==1.3
+tldextract==2.2.3
+toml==0.10.2
+urllib3==1.26.7
+whitenoise==4.1.4
+
+
+## Models
+
+body model:
 
-<p align="center">
-<img src="https://i.imgur.com/rEXcoMn.png" width="160px">
-</p>
+name: String
+date_discovered: String
+details: String
 
-<p align="center">
+# Challenges: 
+Had various issues with masonite, which was a reminder to install things in the proper scope.
 
-<img src="https://travis-ci.org/MasoniteFramework/masonite.svg?branch=master">
-<img src="https://img.shields.io/badge/python-3.4+-blue.svg" alt="Python Version"> <img src="http://pepy.tech/badge/masonite?1" alt="License">  <img src="https://img.shields.io/github/license/MasoniteFramework/masonite.svg" alt="License">
-<img src="https://coveralls.io/repos/github/MasoniteFramework/core/badge.svg?branch=master#" alt="License">
+Encountered an issue showing the added celestial body when created, this was fixed by going through the props and variables and editing them for consistency.
 
-</p>
+Lastly, Tailwind CSS was a bit confusing as to where to make the proper edits to customise buttons and styling.
 
- **NOTE: This repository is the general shell of the framework. This repository is responsible for managing the installation of all new applications. All core framework related code has been abstracted out into it's own PYPI package which can be found [in this GitHub Repo](https://github.com/masoniteframework/core).**
 
 
-## About Masonite
+## Route Table
 
-The modern and developer centric Python web framework that strives for an actual batteries included developer tool with a lot of out of the box functionality with an extremely extendable architecture. Masonite is perfect for beginner developers getting into their first web applications as well as experienced devs that need to utilize the full potential of Masonite to get their applications done.
-
-Masonite works hard to be fast and easy from install to deployment so developers can go from concept to creation in as quick and efficiently as possible. Use it for your next SaaS! Try it once and you’ll fall in love.
-
-* Having a simple and expressive routing engine
-* Extremely powerful command line helpers called `craft` commands
-* A simple migration system, removing the "magic" and finger crossing of migrations
-* A great Active Record style ORM called Masonite ORM
-* A great filesystem architecture for navigating and expanding your project
-* An extremely powerful Service Container (IOC Container)
-* Service Providers which makes Masonite extremely extendable
-
-## Learning Masonite
-
-Masonite strives to have extremely comprehensive documentation. All documentation can be [Found Here](https://docs.masoniteproject.com/v/v2.1/) and would be wise to go through the tutorials there. If you find any discrepencies or anything that doesn't make sense, be sure to comment directly on the documentation to start a discussion!
-
-If you are a visual learner you can find tutorials here: [MasoniteCasts](https://casts.masonite.dev)
-
-Also be sure to join the [Slack channel](http://slack.masoniteproject.com/)!
-
-
-## Requirements
-
-- Python 3.4 +
-- OpenSSL (latest version)
-- Pip
-
-## Linux
-
-If you are running on a Linux flavor, you’ll need a few extra packages before you start. You can download these packages by running:
-
-```
-$ sudo apt-get install python-dev libssl-dev
-```
-
-Instead of `python-dev` you may need to specify your Python version
-
-```
-$ sudo apt-get install python3.6-dev libssl-dev
-```
-
-## Windows
-
-With windows you will need to have the latest OpenSSL version. Install [OpenSSL 32-bit or 64-bit](https://slproweb.com/products/Win32OpenSSL.html).
-
-## Mac
-
-If you do not have the latest version of OpenSSL you will encounter some installation issues with creating new applications since we need to download a zip of the application via GitHub.
-
-With Mac you can install OpenSSL through `brew`.
-
-```
-brew install openssl
-```
-
-Python 3.6 does not come preinstalled with certificates so you may need to install certificates with this command:
-
-```
-/Applications/Python\ 3.6/Install\ Certificates.command
-```
-
-You should now be good to install new Masonite application of Mac :)
-
-### Python 3.7
-
-If you are using [Python 3.7](https://www.python.org/downloads/windows/), add it to your PATH Environment variable.
-
-Open Windows PowerShell and run: `pip install masonite-cli`
-
-Add `C:\Users\%USERNAME%\.AppData\Programs\Python\Python37\Scripts\` to PATH Environment variable.
-
-Note: PATH variables depend on your installation folder
-
-## Installation:
-
-```
-    $ pip3 install masonite-cli :: (may need sudo if using UNIX) ::
-    $ craft new project
-    $ cd project
-    $ craft install
-    $ craft serve
-```
-
-Go to `http://localhost:8000/`
-****
-
-<p align="center">
-* * * *
-</p>
-
-Not all computers are made the same so you may have some trouble installing Masonite depending on your machine. If you have any issues be sure to read the [Known Installation Issues](https://docs.masoniteproject.com/prologue/known-installation-issues) Documentation.
-
-<p align="center">
-* * * *
-</p>
-
-****
-
-## Contributing
-
-Please read the [Contributing Documentation](https://masoniteframework.gitbook.io/docs/prologue/contributing-guide) here. Development will be on the current releasing branch of the [Core Repository](https://github.com/MasoniteFramework/core) (typically the `develop` branch) so check open issues, the current Milestone and the releases in that repository. Ask any questions you like in the issues so we can have an open discussion about the framework, design decisions and future of the project.
-
-## Contributors
-
-Thank you for those who have contributed to Masonite!
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| | | | | | |
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| [<img src="https://avatars1.githubusercontent.com/u/6290791?s=460&v=4" width="100px;"/><br /><sub><b>Vaibhav Mule</b></sub>](https://github.com/vaibhavmule) | [<img src="https://avatars.githubusercontent.com/u/6276555?v=3" width="100px;"/><br /><sub><b>Martín Peveri</b></sub>](https://github.com/mapeveri) | [<img src="https://avatars.githubusercontent.com/u/25895176?v=3" width="100px;"/><br /><sub><b>Adorifski</b></sub>](https://github.com/afdolriski) | [<img src="https://avatars.githubusercontent.com/u/1970073?v=3" width="100px;"/><br /><sub><b>Abram C. Isola</b></sub>](https://github.com/aisola) | [<img src="https://avatars.githubusercontent.com/u/41387624?v=3" width="100px;"/><br /><sub><b>Raphael Schubert</b></sub>](https://github.com/rfschubert) | [<img src="https://avatars.githubusercontent.com/u/16268619?v=3" width="100px;"/><br /><sub><b>Mitch Dennett</b></sub>](https://github.com/mitchdennett) |
-
-## License
-
-The Masonite framework is open-sourced software licensed under the MIT license.
-
-## Hello World
-
-Getting started is very easy. Below is how you can get a simple Hello World application up and running.
-
-## Installation
-
-The best way to install Masonite is by starting in a virtual environment first. This will avoid any issues with filesystem permissions.
-
-```
-python3 -m venv venv
-```
-
-Then activate the virtual environment:
-
-```
-WINDOWS: $ ./venv/Scripts/activate
-MAC: $ source venv/bin/activate
-```
-
-
-You can easily create new applications with `craft`. To create a new application run:
-
-```
-$ pip install masonite-cli
-$ craft new project .
-```
-
-The `.` will tell craft to create the project in the current directory instead of a new directory.
-
-```
-$ craft install
-```
-
-This will install all of Masonites dependencies as well as create a new `.env` file consisting of all of your environment variables.
-
-****
-
-<p align="center">
-* * * *
-</p>
-
-NOTE: Python craft commands are essentially wrappers around common mundane tasks. Read the docs about the craft command tool to learn more
-
-<p align="center">
-* * * *
-</p>
-
-****
-
-
-Now we can run the `craft` command:
-
-    $ craft serve
-
-This will run the server at `localhost:8000` and be in an auto-reloading state. When you change files, your server will restart. Navigating to that URL should show the Masonite welcome message.
-
-If that port is blocked you can specify a port by running:
-
-    $ craft serve --port 8080
-
-Or specify a host by running:
-
-    $ craft serve --host 192.168.1.283
-
-## Hello World
-
-All web routes are in `routes/web.py`. In this file is already the route to the welcome controller. To start your hello world example just add something like:
-
-```python
-Get('/hello/world', 'HelloWorldController@show'),
-```
-
-our routes constant file should now look something like:
-
-```python
-ROUTES = [
-    Get('/', 'WelcomeController@show'),
-    Get('/hello/world', 'HelloWorldController@show'),
-]
-```
-
-****
-
-<p align="center">
-* * * *
-</p>
-
-NOTE: Notice this new interesting string syntax in our route. This will grant our route access to a controller (which we will create below)
-
-<p align="center">
-* * * *
-</p>
-
-****
-
-Since we used a string controller we don't have to import our controller into this file. All imports are done through Masonite on the backend.
-
-You'll notice that we have a reference to the HelloWorldController class which we do not have yet. This framework uses controllers in order to separate the application logic. Controllers can be looked at as the views.py in a Django application. The architectural standard here is 1 controller per file.
-
-In order to make the `HelloWorldController` we can use a `craft` command:
-
-    $ craft controller HelloWorld
-
-This will scaffold the controller for you and put it in `app/http/controllers/HelloWorldController.py`. This new file will have all the imports for us.
-
-Inside the `HelloWorldController` we can make our `show` method like this:
-
-```python
-def show(self, view: View):
-    """ Show Hello World Template """
-    return view.render('helloworld')
-```
-
-As you see above, we are returning a `helloworld` template but we do not have that yet. All templates are in `resources/templates`. We can simply make a file called `helloworld.html` or run the `craft` command:
-
-    $ craft view helloworld
-
-Which will create the `resources/templates/helloworld.html` template for us.
-
-Lastly all templates run through the Jinja2 rendering engine so we can use any Jinja2 code inside our template like:
-
-inside the `resources/views/helloworld.html`
-
-```
-{{ 'Hello World' }}
-```
-
-Now just run the server:
-
-    $ craft serve
-
-And navigate to `localhost:8000/hello/world` and you will see `Hello World` in your browser.
-
-Happy Crafting!
+| url | method | action |
+|-----|--------|--------|
+|/ | GET | get all Celestial Bodied (index)|
+|/body/:id | GET | get individual Celestial Body(show)| 
+|/body/:id/edit | GET | Show (edit) form |
+|/body/new | GET | Show (new) Celestial Body input form|
+|/body | POST | Input Celestial Body, redirect home|
+|/body/:id | PUT | Update Celestial Body, redirect home |
+|/body/:id | DELETE |Delete Celestial Body,redirect home|
